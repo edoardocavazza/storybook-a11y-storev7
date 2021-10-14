@@ -1,0 +1,24 @@
+{
+  "name": "storybook-a11y-storev7",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "lit-element": "^3.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@mdx-js/react": "^1.6.22",
+    "@storybook/addon-a11y": "^6.3.12",
+    "@storybook/addon-actions": "^6.4.0-beta.11",
+    "@storybook/addon-docs": "^6.4.0-beta.11",
+    "@storybook/addon-essentials": "^6.4.0-beta.11",
+    "@storybook/addon-links": "^6.4.0-beta.11",
+    "@storybook/web-components": "^6.4.0-beta.11",
+    "babel-loader": "^8.2.2"
+  },
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  }
+}
